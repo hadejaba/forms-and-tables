@@ -1,13 +1,12 @@
 body {
     background-color:seashell;
-    text-align: center;
     font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
 }
 
 .form1 {
 background-color:white;
 width:30%;
-position: relative;
 margin: 0 auto 0 auto;
 padding: 5px;
 padding-bottom: 10px;
@@ -63,4 +62,14 @@ input[type=text], select {
     border: none;
     border-radius: 4px;
     background-color: #f1f1f1;
+  }
+
+  input[type=button], input[type=submit], input[type=reset] {
+    background-color:darkslategray;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 75%;
   }
